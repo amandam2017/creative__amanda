@@ -195,16 +195,16 @@ label {
 .tools {
   background-color: yellow; }
 
-h1 {
+.myname {
   margin: 0;
   color: #a3a75f;
   font-size: 45px; }
 
-h2 {
+.description {
   font-size: 35px;
   margin: 0; }
 
-h1, h2 {
+.myname, .description {
   background: -webkit-linear-gradient(left, blue, red, #a3a75f, blue, green, purple);
   background: -moz-linear-gradient(left, blue, red, #a3a75f, blue, green, purple);
   background: -o-linear-gradient(left, blue, red, #a3a75f, blue, green, purple);
