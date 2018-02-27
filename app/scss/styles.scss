@@ -5,6 +5,39 @@ html,body {
     padding: 0;
 }
 
+.col-2{
+    width: 50%;
+    float: left;
+}
+
+.col-2:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-3{
+    width: 33.33%;
+    float: left;
+}
+
+.col-3:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-4{
+    width: 25%;
+    float: left;
+}
+
+.col-4:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 body {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -211,10 +244,30 @@ label {
     }
 }
 
+.tools{
+    background-color: yellow;
+}
+
 h1 {
     margin: 0;
     color: #a3a75f;
-    font-size: 30px;
+    font-size:45px;
+}
+
+
+h2{
+  font-size:35px;
+  margin: 0;
+}
+
+h1,h2{
+  background: -webkit-linear-gradient(left, blue, red, #a3a75f, blue, green, purple);
+  background:    -moz-linear-gradient(left, blue, red, #a3a75f, blue, green, purple);
+  background:      -o-linear-gradient(left, blue, red, #a3a75f, blue, green, purple);
+  background:         linear-gradient(left, blue, red, #a3a75f, blue, green, purple);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 p {

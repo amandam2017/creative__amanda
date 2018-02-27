@@ -6,6 +6,7 @@
     <title>amanda</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="css/about.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 </head>
 
 <body>
@@ -29,13 +30,33 @@
 
         <div class="content">
           <div class="content__container">
-              <h1>Amanda Maarman</h1>
-          </div>
+                <h1 class="name__surname">Amanda Maarman</h1>
+
+                <div class="col-3 tools">
+                  <img src="images/bem.png">
+              </div>
+              <div class="col-3 tools">
+                  <img src="images/bem.png">
+              </div>
+              <div class="col-3 tools">
+                  <img src="images/bem.png">
+              </div>
         </div>
       </section>
     </main>
 
+<script src="js/jquery-3.1.1.min.js"></script>
 
-</body>
+<script>
+    $(document).ready(function(){
+    $("h1").hover(function(){
+        var body = $("h1");  
+        body.animate({left: '100px'}, "slow");
+        body.animate({fontSize: '120px'}, "slow");
+    });
+});
+
+</script>
+</head>
 
 </html>
